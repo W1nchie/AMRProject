@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Boldt, J.A.</origin>
+        <origin>Martin, Z.W.</origin>
+        <pubdate>2017</pubdate>
+        <title>Multibeam bathymetry and sediment depth data at select locations on the Des Plaines River near Joliet, Illinois, February 13–14, 2017</title>
+        <geoform>XYZ</geoform>
+        <serinfo>
+          <sername>data release</sername>
+          <issue>https://doi.org/10.5066/F7K935SH</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/F7K935SH</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data are high-resolution bathymetry (river bottom elevation) in XYZ format, generated from the February 14, 2017, topographic and hydrographic survey of the Des Plaines River in an area centered approximately 250 feet upstream of Brandon Road Lock and Dam at Joliet, Illinois. Hydrographic data were collected using a multibeam echo-sounder (MBES) with integrated inertial navigation solution (INS) mounted on a marine survey vessel. Data were collected as the vessel traversed the river along survey lines distributed throughout the area. Data collection software integrated and stored the depth data from the multibeam sonar and the horizontal and vertical position and attitude data of the vessel from the INS in real time. Data processing required computer software to extract bathymetry data from the raw data files and to summarize and map the information.</abstract>
+      <purpose>Hydrographic data were collected along survey lines within the study area to capture the river bottom elevation.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20170214</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1026</westbc>
+        <eastbc>-88.1007</eastbc>
+        <northbc>41.5056</northbc>
+        <southbc>41.5038</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>multibeam</themekey>
+        <themekey>bathymetry</themekey>
+        <themekey>sonar</themekey>
+        <themekey>XYZ</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5984e294e4b05ba66e9d906f</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Brandon Rd Lock and Dam</placekey>
+        <placekey>Des Plaines River</placekey>
+        <placekey>Joliet</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>United States of America</placekey>
+      </place>
+    </keywords>
+    <accconst>None. This dataset is provided by USGS as a public service. Users of this geospatial database and geologic information derived there from should acknowledge the U.S. Geological Survey as the source of the data.</accconst>
+    <useconst>Users must assume responsibility to determine the appropriate use of this data. Users should be aware of the limitations of this dataset if using for critical application.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Indiana-Kentucky Water Science Center</cntorg>
+          <cntper>Zachary W. Martin</cntper>
+        </cntorgp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>5957 Lakeside Blvd</address>
+          <city>Indianapolis</city>
+          <state>IN</state>
+          <postal>46278</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-600-2732</cntvoice>
+        <cntemail>zmartin@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U.S. Army Corps of Engineers; Great Lakes Restoration Initiative</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Microsoft Windows 8 Version Enterprise; HYPACK Version 17.0.34.0; Inertial Explorer Version 8.60</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The errors associated with the collection of bathymetric data can be classified as systematic or random. Systematic errors are those that can be measured or modeled through calibration. Random errors are a result of the limitations of the measuring device and an inability to perfectly model the systematic errors. The errors reported are related to Total Propagated Uncertainty of the bathymetric data. The Multibeam Mapping System (MBMS) requires a rigorous calibration procedure before accurate datasets can be generated. All instrumentation must first be surveyed, and their relative positions (lever arms) must be resolved with respect to the origin point of the inertial measurement unit (IMU). A patch test procedure is then performed in order to determine the angular differences (roll, pitch, and heading) between the IMU and the MBES transducer head. This process involves surveying over various bathymetric features in the same or opposite directions, from which the potential differences in the angular offsets can be identified and quantified.</attraccr>
+    </attracc>
+    <logic>Field procedures described in multiple bathymetry reports were followed during the collection of bathymetric data. For the MBMS, the principal quality-assurance measures were assessed in real time during the survey. The MBMS operator continuously assessed the quality of the collected data during the survey by making visual observations of across-track swaths (such as convex, concave, or skewed bed returns in flat, smooth bottoms), noting data quality flags and alarms from the MBES and the INS, and noting comparisons between adjacent overlapping swaths. In addition to the real-time quality-assurance assessments during the survey, beam angle checks and a suite of patch tests were executed to ensure quality data were acquired from the MBMS. A beam angle check is used to determine the accuracy of the depth readings obtained by the outer beams (greater than 25 degrees from nadir [vertical]) of the MBES, which may change with time as a result of inaccurate sound velocities, physical configuration changes, and overall depth being surveyed. The HYPACK/HYSWEEP software has a utility that develops a statistical assessment of the quality of the outer beams compared to a reference surface (HYPACK, Inc., 2017). HYPACK, Inc., 2017, Hydrographic Survey Software for Data Collection and Terrain Imaging, accessed January 2017 at http://www.hypack.com/.</logic>
+    <complete>Raw navigation and motion-sensing data were recorded by the INS, beginning at least 5 minutes before any bathymetric or topographic data were collected, and continuing at least 5 minutes after the last data were collected. Bathymetric data were recorded in HYPACK/HYSWEEP as a survey file, which records all bathymetric survey line data, configuration information, and quality assurance and quality control results. Each survey line was recorded to a separate file, and began when the boat was positioned at one of the ends of a planned line. The boat operator would navigate along the planned survey line to the opposite end, avoiding sharp changes in speed or direction. At the opposite end of a survey line, data recording was stopped and the boat would move to the next planned survey line. Occasionally, gaps would appear in the data due to changes in bed topography, and attempts were made to adjust the survey to cover these gaps. The dataset is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The Inertial Explorer software (NovAtel Inc., 2016) uses differential correction algorithms to compute a smoothed best estimate of trajectory (SBET) file. Errors associated with the SBET file would be applicable to the horizontal positional accuracy of the bathymetric and topographic data. In addition to the SBET file, Inertial Explorer generates a file describing the accuracy of the post-processed solution. The horizontal accuracy of the post-processed file has an estimated standard deviation of 0.5 cm. NovAtel Inc., 2016, GPS and GNSS Equipment, Products, and Solutions, accessed January 2017 at https://www.novatel.com/.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The Inertial Explorer software generates a file describing the accuracy of the post-processed solution. The vertical accuracy of the post-processed file has an estimated standard deviation of 1 cm. Check RTK GPS shots were also taken at various locations in the survey area. The equipment used for this were a Trimble R8s GNSS receiver and a Trimble TSC3 controller. Due to challenging conditions, the check measurements are likely fair to poor. The mean difference out of 15 check measurements was -0.24 ft.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The bathymetry of the survey area was determined using a high-resolution multibeam mapping system (MBMS). An MBMS is an integration of several individual components: a multibeam echosounder (MBES), a navigation and motion-sensing system, and a data-collection and data-processing computer running the HYPACK/HYSWEEP data acquisition software. The MBES was the NORBIT iWBMSc, operated at a frequency of 400 kilohertz (kHz). The navigation and motion-sensing system was the integrated INS, which consists of two Global Navigation Satellite System (GNSS) receivers, an inertial measurement unit (IMU), and a controller/processor. The navigation system locates the MBES in three-dimensional space, and the motion-sensing system measures the heave, pitch, roll, and heading of the vessel (and, thereby, the MBES) to accurately position the data received by the MBES. A cellular network link to a continuously operating reference station established and maintained by Trimble was used to provide the real-time kinematic (RTK) differential corrections to the INS for the navigation and tide solution during the survey. Data from the MBES and the INS were displayed in real-time during the survey and logged for additional processing after the survey. Bathymetric data were obtained along longitudinal transect lines, with overlap of the survey swaths to attempt to ensure complete coverage of the river bottom and minimize sonic shadows.</procdesc>
+        <procdate>20170214</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The logged navigation and motion-sensing information from the survey was post-processed using the Inertial Explorer software, which provides tools to identify and compensate for sensor and environmental errors, and computes an optimally blended navigation solution from the GNSS and IMU raw data. The blended navigation solution (called a standard best estimate of travel or SBET file), generated by post-processing the navigation data, was applied to the bathymetric and topographic surveys to minimize the effects of GNSS outages and to properly georeference the survey data.</procdesc>
+        <procdate>20170215</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The bathymetry data were processed in HYPACK/HYSWEEP to remove data spikes and other spurious points in the multibeam swath traces and georeferenced using the navigation and position solution data from the SBET file. The overall bathymetric survey area was then output to a space-delimited XYZ file at a 5-ft data resolution.</procdesc>
+        <procdate>20170221</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>A triangulated irregular network (TIN) was created from the bathymetry XYZ file to fill in the gaps between swaths and cells with no data. The data were then exported to a space-delimited XYZ file at a 5-ft data resolution. The XY source was the grid, and the Z source was the TIN.</procdesc>
+        <procdate>20170224</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>An image of the final data was created with HYPACK software.</procdesc>
+        <procdate>20170224</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The metadata was created.</procdesc>
+        <procdate>20170224</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>5,583</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>1201</spcszone>
+            <transmer>
+              <sfctrmer>0.999967</sfctrmer>
+              <longcm>-87.083333</longcm>
+              <latprjo>37.500000</latprjo>
+              <feast>2952750.000000</feast>
+              <fnorth>820208.333333</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>5.0</absres>
+            <ordres>5.0</ordres>
+          </coordrep>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>WGS-84</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>0.01</altres>
+        <altunits>feet</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>bathymetry-5ft_upstream-pool_2017-02-14.xyz</enttypl>
+        <enttypd>XYZ</enttypd>
+        <enttypds>HYPACK</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Easting</attrlabl>
+        <attrdef>X-coordinate, State Plane NAD-83, IL-1201 Illinois East, US Survey Feet</attrdef>
+        <attrdefs>International Hydrographic Organization</attrdefs>
+        <attrdomv>
+          <udom>Assigned coordinate value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Northing</attrlabl>
+        <attrdef>Y-coordinate, State Plane NAD-83, IL-1201 Illinois East, US Survey Feet</attrdef>
+        <attrdefs>International Hydrographic Organization</attrdefs>
+        <attrdomv>
+          <udom>Assigned coordinate value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Elevation</attrlabl>
+        <attrdef>Z-coordinate, in feet NAVD88</attrdef>
+        <attrdefs>International Hydrographic Organization</attrdefs>
+        <attrdomv>
+          <udom>Assigned coordinate value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+          <cntper>U.S. Geological Survey - ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this information product, for the most part, is in the public domain, it also contains copyrighted materials as noted in the text. Permission to reproduce copyrighted items must be secured from the copyright owner whenever applicable. The data have been approved for release and publication by the U.S. Geological Survey (USGS). Although the data have been subjected to rigorous review and are substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, the data are released on the condition that neither the USGS nor the U.S. Government may be held liable for any damages resulting from authorized or unauthorized use. Although the data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein. Users of the data are advised to read all metadata and associated documentation thoroughly to understand appropriate use and data limitations.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>XYZ</formname>
+          <formvern>none</formvern>
+          <formcont>This page contains an XYZ file (.xyz) as well as the associated metadata file (.xml) and an image (.png) of the data for the bathymetric survey of the Des Plaines River upstream pool on February 14, 2017.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/F7K935SH</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20200827</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Indiana-Kentucky Water Science Center</cntorg>
+          <cntper>Zachary W. Martin</cntper>
+        </cntorgp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>5957 Lakeside Blvd</address>
+          <city>Indianapolis</city>
+          <state>IN</state>
+          <postal>46278</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-600-2732</cntvoice>
+        <cntemail>zmartin@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

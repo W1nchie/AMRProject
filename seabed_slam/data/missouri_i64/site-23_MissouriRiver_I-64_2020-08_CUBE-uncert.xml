@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://water.usgs.gov/GIS/metadata/usgswrd/XML/fgdc_classic.xsl"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Richard J. Huizinga</origin>
+        <pubdate>20221231</pubdate>
+        <title>Site 23 Missouri River Bathymetry and Uncertainty at Structures A7577/A4017 on Interstate 64 near St. Louis, Missouri, August 2020</title>
+        <geoform>Vector digital data</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey ScienceBase data release</sername>
+          <issue>version 1.0</issue>
+        </serinfo>
+		<pubinfo>
+		  <pubplace>Denver, CO</pubplace>
+		  <publish>U.S. Geological Survey - ScienceBase</publish>
+		</pubinfo>
+        <onlink>https://doi.org/10.5066/P9F04JC5</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data are high-resolution bathymetry (riverbed elevation) and uncertainty in comma-delimited table format, generated from the August 3, 2020, hydrographic and velocimetric survey of the Missouri River near structures A7577/A4017 on Interstate 64 near St. Louis, Missouri.  Hydrographic data were collected using a high-resolution multibeam echosounder mapping system (MBMS), which consists of a multibeam echosounder (MBES) and an inertial navigation system (INS) mounted on a marine survey vessel.  Data were collected as the vessel traversed the river along planned survey lines distributed throughout the reach.  Data collection software integrated and stored the depth data from the MBES and the horizontal and vertical position and attitude data of the vessel from the INS in real time.  Data processing required computer software to extract bathymetry data from the raw data files and to summarize and map the information.</abstract>
+      <purpose>Hydrographic data were collected along planned survey lines within the study area to capture the hydraulic and geomorphological characteristics of the river.  These data are intended for science researchers, policy makers, and hydraulic engineers interested in assessing the condition of the channel bed and the scour countermeasures in place around the bridge foundations.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20200803</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-90.6667</westbc>
+        <eastbc>-90.6576</eastbc>
+        <northbc>38.6904</northbc>
+        <southbc>38.6843</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>USGS</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>Inland Waters</themekey>
+        <themekey>Water Depth</themekey>
+        <themekey>Multibeam</themekey>
+        <themekey>XYZ</themekey>
+        <themekey>Point Cloud</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>structure</themekey>
+        <themekey>elevation</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>location</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>bathymetry</themekey>
+      </theme>
+      <theme>
+        <themekt>Data Categories for Marine Planning</themekt>
+        <themekey>Bathymetry and Elevation</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>St. Louis</placekey>
+        <placekey>Missouri River</placekey>
+        <placekey>Missouri</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Richard J. Huizinga</cntper>
+          <cntorg>USGS Central Midwest Water Science Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1400 Independence Road, MS 100</address>
+          <city>Rolla</city>
+          <state>MO</state>
+          <postal>65401</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(573) 308-3570</cntvoice>
+        <cntemail>huizinga@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>site-23_MissouriRiver_I-64_2020-08_CUBE-uncert.jpg</browsen>
+      <browsed>Map view of the Missouri River near Interstate 64 near St. Louis, Missouri, on August 3, 2020. Colored region is the channel floor; yellow, orange, and red show subsequently shallower depths of the channel, whereas green, cyan, and blue show subsequently greater depths.</browsed>
+      <browset>JPG</browset>
+    </browse>
+    <datacred>Please recognize the U.S. Geological Survey (USGS) and the Missouri Department of Transportation (MoDOT) for use of these data.</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Environment as of Metadata Creation: Microsoft Windows 10 Enterprise, Version 20H2; HYPACK Version 21.2.6.0; POSPac MMS Version 8.6.7810.21570, Global Mapper v22.1</native>
+    <crossref>
+      <citeinfo>
+        <origin>Richard J. Huizinga</origin>
+        <pubdate>2022</pubdate>
+        <title>Bathymetric and velocimetric surveys at highway bridges crossing the Missouri River near Kansas City, Missouri, August 2019, August 2020, and October 2020</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Scientific Investigations Report</sername>
+          <issue>2021-5098</issue>
+        </serinfo>
+        <onlink>http://dx.doi.org/10.3133/sir20215098</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Mark R. Byrnes</origin>
+        <origin>Jessica L. Baker</origin>
+        <origin>Feng Li</origin>
+        <pubdate>2002</pubdate>
+        <title>Quantifying potential measurement errors and uncertainties associated with bathymetric change analysis</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Vicksburg, Miss.</pubplace>
+          <publish>U.S. Army Corps of Engineers</publish>
+        </pubinfo>
+        <othercit>ERDC/CHL CHETN–IV–50</othercit>
+        <onlink>https://apps.dtic.mil/sti/pdfs/ADA588888.pdf</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>HYPACK, Inc.</origin>
+        <pubdate>202101</pubdate>
+        <title>Hypack Hydrographic Survey Software User's Manual</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Middletown, Conn.</pubplace>
+          <publish>HYPACK, Inc.</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Applanix Corporation</origin>
+        <pubdate>201906</pubdate>
+        <title>POSPac MMS GNSS-Inertial Tools Software User's Manual</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Ontario, Canada</pubplace>
+          <publish>Applanix Corporation</publish>
+        </pubinfo>
+        <othercit>PUBS-MAN-001768</othercit>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Army Corps of Engineers</origin>
+        <pubdate>2013</pubdate>
+        <title>Engineering and Design -- Hydrographic Surveying</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>U.S. Army Corps of Engineers Engineering Manual</sername>
+          <issue>EM 1110-2-1003</issue>
+        </serinfo>
+        <othercit>11 chapters plus appendixes and glossary</othercit>
+        <onlink>https://www.publications.usace.army.mil/Portals/76/Publications/EngineerManuals/EM_1110-2-1003.pdf?ver=gDGVUj_0XR2sXHiIpQZv2Q%3d%3d</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The errors associated with the collection of bathymetric data can be classified as systematic or random. Systematic errors are those that can be measured or modeled through calibration (Byrnes and others, 2002). Random errors are a result of the limitations of the measuring device and an inability to perfectly model the systematic errors. The errors reported are related to uncertainty of the bathymetric data as estimated using the Combined Uncertainty and Bathymetry Estimator (CUBE) method as implemented in the HYPACK/HYSWEEP software (HYPACK, Inc., 2021). The multibeam echosounder mapping system (MBMS) requires a rigorous calibration procedure before accurate datasets can be generated. All instrumentation must first be surveyed, and their relative positions (lever arms) must be resolved with respect to the origin point of the inertial navigation system (INS). A patch test procedure is then performed in order to determine the angular differences (roll, pitch, and heading) between the INS and the multibeam echosounder (MBES) transducer head. This process involves surveying over various bathymetric features in the same or opposing directions, from which the potential differences in the angular offsets can be identified and quantified.</attraccr>
+    </attracc>
+    <logic>Field procedures described in multiple bathymetry reports by Huizinga (see for example, Huizinga, 2022) were followed during the collection of bathymetric data. For the MBMS, the principal quality-assurance measures were assessed in real time during the survey. The MBMS operator continuously assessed the quality of the collected data during the survey by making visual observations of across-track swaths (such as convex, concave, or skewed bed returns in flat, smooth bottoms), noting data quality flags and alarms from the MBES and the INS, and noting comparisons between adjacent overlapping swaths.
+	
+	In addition to the real-time quality-assurance assessments during the survey, beam angle checks and a suite of patch tests were executed to ensure quality data were acquired from the MBMS. A beam angle check is used to determine the accuracy of the depth readings obtained by the outer beams (greater than 25 degrees from nadir [vertical]) of the MBES, which may change with time as a result of inaccurate sound velocities, physical configuration changes, and overall depth being surveyed. The HYPACK/HYSWEEP software has a utility that develops a statistical assessment of the quality of the outer beams compared to a reference surface (HYPACK, Inc., 2021). On June 23, 2020, a reference surface was created for a part of Mozingo Lake near Maryville, Missouri, and check lines were run across the reference surface. Included with the measurement was a sound velocity cast to document and quantify any stratification in the water column near the reference surface. The results of this beam angle check were within the recommended performance standards used by the U.S. Army Corps of Engineers for hydrographic surveys for all of the representative angles below 50 degrees (U.S. Army Corps of Engineers, 2013), permitting the use of the central 100 degrees of the sonar swath.  Overlap with adjacent swaths generally occurred for angles beyond 50 degrees in these surveys.</logic>
+    <complete>Raw navigation and motion-sensing data were recorded by the INS controller, beginning at least 5 minutes before any bathymetric or topographic data were collected, and continuing at least 5 minutes after the last data were collected. Bathymetric data were recorded in HYPACK/HYSWEEP as a survey file, which records all bathymetric survey line data, configuration information, and quality assurance and quality control results. Each survey line was recorded to a separate file and began when the boat was positioned at the upstream or downstream end of a planned line. The boat operator would navigate along the planned survey line to the opposite end, avoiding sharp changes in speed or direction. At the opposite end of a survey line, data recording was stopped, and the boat would move to the next planned survey line. Occasionally, gaps would appear in the data due to changes in bed topography, and attempts were made to adjust the survey to cover these gaps if larger than about 2 meters wide or about 50 meters long.</complete>
+    <posacc>
+	  <horizpa>
+        <horizpar>The POSPac MMS software (Applanix Corporation, 2019) uses differential correction algorithms to compute a smoothed best estimate of trajectory (SBET) file. Errors associated with the SBET file would be applicable to the horizontal positional accuracy of the bathymetric and topographic data. In addition to the SBET file, POSPac MMS generates a file describing the accuracy of the postprocessed solution. The horizontal accuracy of the postprocessed file has a minimum and maximum root mean square (RMS) error of 0.9 and 11.5 centimeters, respectively. Stated accuracies are based on peak-to-peak errors.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Uncertainty in the bathymetric survey was estimated using the Combined Uncertainty and Bathymetry Estimator (CUBE) method, as implemented in the HYPACK/HYSWEEP software. The CUBE method allows all random system component uncertainties and resolution effects to be combined and propagated through the data processing steps, which provides a robust estimate of the spatial distribution of possible uncertainty within each cell of the survey area. Thus, the reported uncertainty of a point is a measure of the accuracy to be expected for such a point when all relevant error sources in a given cell are taken into account.  The largest uncertainty in this survey was about 3.41 feet (ft; 1.04 meter (m)); uncertainty values of this magnitude typically occur near high-relief features, such as the front or side of a pier footing.  However, most of the uncertainty values (more than 98.7 percent) were less than 0.25 ft (0.076 m) and the median uncertainty was 0.07 ft (0.02 m). Larger uncertainty values occur near moderate-relief features (banks, spur dikes, rock riprap and outcrops, and scour holes near piers). Occasionally, these larger uncertainty values also occurred in the outermost beamss of the multibeam swath where adjacent swaths overlapped, particularly when the MBES head was electronically tilted for the survey lines along the banks or near the piers.  Overlapping adjacent swaths in the channel thalweg (the line of maximum depth in the channel) also can display larger uncertainty values because substantial bed movement can occur between survey passes.</vertaccr>
+	  </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The bathymetry of the survey area was determined using a high-resolution multibeam echosounder mapping system (MBMS). An MBMS is an integration of several individual components: a multibeam echosounder (MBES), an inertial navigation system (INS), and a data-collection and data-processing computer running the HYPACK/HYSWEEP data acquisition software. The MBES was the Norbit iWBMSh, operated at a frequency of 400 kilohertz (kHz). The INS was the Applanix Position Orientation Solution for Marine Vessels (POS-MV) OceanMaster system, which consists of two Global Navigation Satellite System (GNSS) receivers, an inertial measurement unit (IMU), and a controller/processor. The INS locates the MBES in three-dimensional space, and measures the heave, pitch, roll, and heading of the vessel (and, thereby, the MBES) to accurately position the data received by the MBES. A cellular network link to the real-time network (RTN) established and maintained by the Missouri Department of Transportation (available through registration at http://gpsweb3.modot.mo.gov/) was used to provide the real-time kinematic (RTK) differential corrections to the POS-MV for the navigation and tide solution during the survey. Data from the MBES and the INS were displayed in real-time during the survey and logged for additional processing after the survey. Bathymetric data were obtained along planned survey lines distributed throughout the reach and generally oriented longitudinally in the streamwise direction, with overlap of the survey swaths to attempt to ensure complete coverage of the channel bed and minimize sonic shadows. Substantial overlap was achieved for many of the surveyed swaths, except in shallow areas near the channel banks or spur dikes. Areas near the bridge piers and along the banks also were surveyed in an upstream direction with the MBES head electronically tilted at either 30 degrees to port or starboard to increase the acquisition of bathymetric data higher on the banks and the sides of the piers.</procdesc>
+        <procdate>20200803</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The logged navigation and motion-sensing information from the survey was post-processed using the POSPac Mobile Mapping Suite (MMS) software (Applanix Corporation, 2019), which provides tools to identify and compensate for sensor and environmental errors and computes an optimally blended navigation solution from the GNSS and IMU raw data. The blended navigation solution (called a smoothed best estimate of trajectory or SBET file), generated by post-processing the navigation data, was applied to the bathymetric survey to minimize the effects of GNSS outages while surveying under the bridge, and to properly georeference the survey data.</procdesc>
+        <procdate>20210830</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The bathymetry data were processed in HYPACK/HYSWEEP to remove data spikes and other spurious points in the multibeam swath traces and georeferenced using the navigation and position solution data from the SBET file. The overall bathymetric survey area was then imported into the Combined Uncertainty Bathymetric Estimator (CUBE) processor in HYPACK/HYSWEEP, and output to two comma-delimited XYZ file at a 0.50-meter data resolution, one file with location and elevation, and one with location and uncertainty.</procdesc>
+        <procdate>20210903</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The elevation and uncertainty data in the two files output from HYPACK/HYSWEEP were merged into a single file with X, Y, elevation, and uncertainty.</procdesc>
+        <procdate>20220316</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The metadata was created.</procdesc>
+        <procdate>20220316</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1053285</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD83(NSRS2007) / UTM zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.01</absres>
+            <ordres>0.01</ordres>
+          </coordrep>
+          <plandu>METERS</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>0.01</altres>
+        <altunits>meter</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>site-23_MissouriRiver_I-64_2020-08_CUBE-uncert</enttypl>
+        <enttypd>comma-delimited table of XYZ-uncertainty</enttypd>
+        <enttypds>HYPACK CUBE</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>X</attrlabl>
+        <attrdef>X coordinate of the data point, in meters, in the Universal Transverse Mercator projection, Zone 15, North American Datum of 1983</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Assigned coordinate value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+        <attrdef>Y coordinate of the data point, in meters, in the Universal Transverse Mercator projection, Zone 15, North American Datum of 1983</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Assigned coordinate value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Z</attrlabl>
+        <attrdef>Elevation value at the location of the data point, in meters, referenced to the North American Vertical Datum of 1988 using the geoid model GEOID18</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Assigned coordinate value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Uncert</attrlabl>
+        <attrdef>Uncertainty value at the location of the data point, in meters, using the Combined Uncertainty and Bathymetry Estimator (CUBE) method as implemented in the HYPACK/HYSWEEP software</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Computed uncertainty value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government. The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ZIP</formname>
+          <formvern>WinZip 24.0</formvern>
+          <formcont>This WinZip file contains a comma-delimited text file of point data with bathymetric elevation and uncertainty, a comma-delimited text file with depth-averaged velocity data, and the associated metadata files and thumbnails.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/file/get/621d5511d34ee0c6b3891314?name=site-23_MissouriRiver_I-64_2020-08.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20221121</metd>
+    <metc>
+	  <cntinfo>
+		<cntperp>
+		  <cntper>Richard J. Huizinga</cntper>
+		  <cntorg>U.S. Geological Survey - Central Midwest Water Science Center</cntorg>
+		</cntperp>
+		<cntpos>Hydrologist</cntpos>
+		<cntaddr>
+		  <addrtype>mailing address</addrtype>
+		  <address>1400 Independence Rd, MS 100</address>
+		  <city>Rolla</city>
+		  <state>MO</state>
+		  <postal>65401</postal>
+		  <country>US</country>
+		</cntaddr>
+		<cntvoice>(573) 308-3570</cntvoice>
+		<cntemail>huizinga@usgs.gov</cntemail>
+	  </cntinfo>
+	</metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
