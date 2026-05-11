@@ -4,30 +4,25 @@
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="12.0"/>
-      <inertia ixx="0.35" ixy="0.0" ixz="0.0" iyy="0.9" iyz="0.0" izz="1.1"/>
+      <inertia
+        ixx="0.35" ixy="0.0" ixz="0.0"
+        iyy="0.9"  iyz="0.0"
+        izz="1.1"/>
     </inertial>
 
-    <visual>
-      <origin xyz="0 0 0.10" rpy="0 0 0"/>
+    <visual name="benchy_visual">
+      <origin xyz="-0.05 0 -0.02" rpy="0 0 0"/>
       <geometry>
-        <box size="0.9 0.42 0.20"/>
+        <mesh
+          filename="/home/w1nchie/ros2_ws/src/amr/boat_control/models/benchy.stl"
+          scale="0.025 0.025 0.025"/>
       </geometry>
-      <material name="HullBlue">
+      <material name="BenchyBlue">
         <color rgba="0.10 0.35 0.75 1.0"/>
       </material>
     </visual>
 
-    <visual>
-      <origin xyz="0.42 0 0.12" rpy="0 0 0"/>
-      <geometry>
-        <box size="0.14 0.18 0.14"/>
-      </geometry>
-      <material name="BowWhite">
-        <color rgba="0.95 0.95 0.95 1.0"/>
-      </material>
-    </visual>
-
-    <collision>
+    <collision name="base_collision">
       <origin xyz="0 0 0.10" rpy="0 0 0"/>
       <geometry>
         <box size="0.9 0.42 0.20"/>
